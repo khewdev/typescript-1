@@ -11,3 +11,7 @@ export async function createUserHandler(req: Request, res: Response) {
         return res.status(400).send(e.message);
     }
 }
+
+export async function createUserSessionHandler(req: Request, res: Response) {
+
+}
