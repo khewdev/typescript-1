@@ -1,0 +1,33 @@
+{
+  "name": "typescript-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khewdev/typescript-1.git"
+  },
+  "author": "khewdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khewdev/typescript-1/issues"
+  },
+  "homepage": "https://github.com/khewdev/typescript-1#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.3",
+    "nanoid": "^3.1.23",
+    "pino": "^6.12.0",
+    "pino-pretty": "^5.1.2",
+    "yup": "^0.32.9"
+  }
+}
