@@ -1,5 +1,6 @@
 import { DocumentDefinition } from "mongoose";
 import User, { UserDocument } from "../model/user.model";
+import { omit } from "lodash";
 
 export async function createUser(input: DocumentDefinition<UserDocument>) {
     try {
